@@ -1,1 +1,1 @@
-<h1>Theme de PickApp</h1>
+<h1>Landing page de PickApp</h1>
