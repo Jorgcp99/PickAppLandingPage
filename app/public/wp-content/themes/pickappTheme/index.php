@@ -1,2 +1,2 @@
 <h1>Landing page de PickApp</h1>
-<h4>Adiós</h4>
+<h4>Adiósdasdadsada</h4>

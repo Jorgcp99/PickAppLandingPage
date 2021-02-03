@@ -1,2 +1,9 @@
 [03-Feb-2021 17:40:05] NOTICE: fpm is running, pid 39015
 [03-Feb-2021 17:40:05] NOTICE: ready to handle connections
+[03-Feb-2021 19:30:39] NOTICE: fpm is running, pid 3456
+[03-Feb-2021 19:30:39] NOTICE: ready to handle connections
+[03-Feb-2021 19:30:56] NOTICE: Terminating ...
+[03-Feb-2021 19:30:56] NOTICE: Terminating ...
+[03-Feb-2021 19:30:56] NOTICE: exiting, bye-bye!
+[03-Feb-2021 19:31:03] NOTICE: fpm is running, pid 3472
+[03-Feb-2021 19:31:03] NOTICE: ready to handle connections
