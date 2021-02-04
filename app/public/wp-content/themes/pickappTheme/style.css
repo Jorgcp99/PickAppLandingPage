@@ -10,3 +10,48 @@
     Tags: landingPage
     Text Domain: pickapptheme
 */
+body {
+  margin: 0px;
+}
+
+.title {
+  margin-top: 250px;
+  margin-left: 10%;
+  top: 0;
+  position: absolute;
+  color: white;
+  font-size: 70px;
+}
+
+.desc {
+  margin-top: 350px;
+  margin-left: 10%;
+  top: 0;
+  position: absolute;
+  color: white;
+  font-size: 30px;
+}
+
+.img {
+  margin-top: 150px;
+  right: 0;
+  margin-right: 10%;
+  top: 0;
+  position: absolute;
+  width: 550px;
+}
+
+.diagonal-box {
+  position: relative;
+  height: 1050px;
+  background-color: #0744ce;
+  transform: skewY(-18deg);
+  margin-top: -450px;
+}
+.content {
+  max-width: 50em;
+  margin: 0 auto;
+}
+
+.mainDiv {
+}
