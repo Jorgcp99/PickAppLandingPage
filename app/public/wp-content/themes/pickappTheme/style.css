@@ -10,6 +10,11 @@
     Tags: landingPage
     Text Domain: pickapptheme
 */
+
+:root {
+  /** Fuentes **/
+  --fuentePrincipal: 'PT Serif', serif;
+}
 body {
   margin: 0px;
 }
@@ -20,16 +25,20 @@ body {
   top: 0;
   position: absolute;
   color: white;
-  font-size: 70px;
+  font-size: 100px;
+  font-family: var(--fuentePrincipal);
+  font-weight: 700;
 }
 
 .desc {
-  margin-top: 350px;
+  margin-top: 390px;
   margin-left: 10%;
   top: 0;
   position: absolute;
   color: white;
   font-size: 30px;
+  font-family: var(--fuentePrincipal);
+  font-weight: 500;
 }
 
 .img {
@@ -45,13 +54,66 @@ body {
   position: relative;
   height: 1050px;
   background-color: #0744ce;
-  transform: skewY(-18deg);
-  margin-top: -450px;
+  transform: skewY(-23deg);
+  margin-top: -550px;
 }
 .content {
   max-width: 50em;
   margin: 0 auto;
 }
 
-.mainDiv {
+.download-container {
+  margin-top: 500px;
+  top: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+  width: 40%;
+  margin-left: 10%;
+  position: absolute;
+}
+
+.download-img {
+  width: 90%;
+}
+
+/** Row grid system **/
+.column {
+  float: left;
+  width: 50%;
+  padding-top: 5px;
+  text-align: center;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+/** Info Temporal **/
+
+.dev-mesage {
+  margin-left: 28%;
+  display: grid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: var(--fuentePrincipal);
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 40px;
+  background-color: white;
+  margin-top: 20px;
+  top: 0;
+  position: absolute;
+}
+
+.dev-mesage p {
+  margin: 0;
+}
+
+.info-img {
+  width: 20px;
+  vertical-align: middle;
 }
